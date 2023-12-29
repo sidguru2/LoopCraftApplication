@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116800312B3F6F5A00219555 /* loopcraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116800302B3F6F5A00219555 /* loopcraftApp.swift */; };
+		116800332B3F6F5A00219555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116800322B3F6F5A00219555 /* ContentView.swift */; };
+		116800352B3F6F5C00219555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116800342B3F6F5C00219555 /* Assets.xcassets */; };
+		116800382B3F6F5C00219555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116800372B3F6F5C00219555 /* Preview Assets.xcassets */; };
+		116800432B3F6F5D00219555 /* loopcraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116800422B3F6F5D00219555 /* loopcraftTests.swift */; };
+		1168004D2B3F6F5D00219555 /* loopcraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168004C2B3F6F5D00219555 /* loopcraftUITests.swift */; };
+		1168004F2B3F6F5D00219555 /* loopcraftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168004E2B3F6F5D00219555 /* loopcraftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1168003F2B3F6F5D00219555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116800252B3F6F5A00219555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1168002C2B3F6F5A00219555;
+			remoteInfo = loopcraft;
+		};
+		116800492B3F6F5D00219555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116800252B3F6F5A00219555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1168002C2B3F6F5A00219555;
+			remoteInfo = loopcraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1168002D2B3F6F5A00219555 /* loopcraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loopcraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116800302B3F6F5A00219555 /* loopcraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopcraftApp.swift; sourceTree = "<group>"; };
+		116800322B3F6F5A00219555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		116800342B3F6F5C00219555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116800372B3F6F5C00219555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		116800392B3F6F5C00219555 /* loopcraft.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = loopcraft.entitlements; sourceTree = "<group>"; };
+		1168003E2B3F6F5D00219555 /* loopcraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loopcraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		116800422B3F6F5D00219555 /* loopcraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopcraftTests.swift; sourceTree = "<group>"; };
+		116800482B3F6F5D00219555 /* loopcraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loopcraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1168004C2B3F6F5D00219555 /* loopcraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopcraftUITests.swift; sourceTree = "<group>"; };
+		1168004E2B3F6F5D00219555 /* loopcraftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopcraftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1168002A2B3F6F5A00219555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1168003B2B3F6F5D00219555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116800452B3F6F5D00219555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116800242B3F6F5A00219555 = {
+			isa = PBXGroup;
+			children = (
+				1168002F2B3F6F5A00219555 /* loopcraft */,
+				116800412B3F6F5D00219555 /* loopcraftTests */,
+				1168004B2B3F6F5D00219555 /* loopcraftUITests */,
+				1168002E2B3F6F5A00219555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1168002E2B3F6F5A00219555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1168002D2B3F6F5A00219555 /* loopcraft.app */,
+				1168003E2B3F6F5D00219555 /* loopcraftTests.xctest */,
+				116800482B3F6F5D00219555 /* loopcraftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1168002F2B3F6F5A00219555 /* loopcraft */ = {
+			isa = PBXGroup;
+			children = (
+				116800302B3F6F5A00219555 /* loopcraftApp.swift */,
+				116800322B3F6F5A00219555 /* ContentView.swift */,
+				116800342B3F6F5C00219555 /* Assets.xcassets */,
+				116800392B3F6F5C00219555 /* loopcraft.entitlements */,
+				116800362B3F6F5C00219555 /* Preview Content */,
+			);
+			path = loopcraft;
+			sourceTree = "<group>";
+		};
+		116800362B3F6F5C00219555 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				116800372B3F6F5C00219555 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		116800412B3F6F5D00219555 /* loopcraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				116800422B3F6F5D00219555 /* loopcraftTests.swift */,
+			);
+			path = loopcraftTests;
+			sourceTree = "<group>";
+		};
+		1168004B2B3F6F5D00219555 /* loopcraftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1168004C2B3F6F5D00219555 /* loopcraftUITests.swift */,
+				1168004E2B3F6F5D00219555 /* loopcraftUITestsLaunchTests.swift */,
+			);
+			path = loopcraftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1168002C2B3F6F5A00219555 /* loopcraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116800522B3F6F5D00219555 /* Build configuration list for PBXNativeTarget "loopcraft" */;
+			buildPhases = (
+				116800292B3F6F5A00219555 /* Sources */,
+				1168002A2B3F6F5A00219555 /* Frameworks */,
+				1168002B2B3F6F5A00219555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loopcraft;
+			productName = loopcraft;
+			productReference = 1168002D2B3F6F5A00219555 /* loopcraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1168003D2B3F6F5D00219555 /* loopcraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116800552B3F6F5D00219555 /* Build configuration list for PBXNativeTarget "loopcraftTests" */;
+			buildPhases = (
+				1168003A2B3F6F5D00219555 /* Sources */,
+				1168003B2B3F6F5D00219555 /* Frameworks */,
+				1168003C2B3F6F5D00219555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116800402B3F6F5D00219555 /* PBXTargetDependency */,
+			);
+			name = loopcraftTests;
+			productName = loopcraftTests;
+			productReference = 1168003E2B3F6F5D00219555 /* loopcraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		116800472B3F6F5D00219555 /* loopcraftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116800582B3F6F5D00219555 /* Build configuration list for PBXNativeTarget "loopcraftUITests" */;
+			buildPhases = (
+				116800442B3F6F5D00219555 /* Sources */,
+				116800452B3F6F5D00219555 /* Frameworks */,
+				116800462B3F6F5D00219555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1168004A2B3F6F5D00219555 /* PBXTargetDependency */,
+			);
+			name = loopcraftUITests;
+			productName = loopcraftUITests;
+			productReference = 116800482B3F6F5D00219555 /* loopcraftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116800252B3F6F5A00219555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1168002C2B3F6F5A00219555 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					1168003D2B3F6F5D00219555 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1168002C2B3F6F5A00219555;
+					};
+					116800472B3F6F5D00219555 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1168002C2B3F6F5A00219555;
+					};
+				};
+			};
+			buildConfigurationList = 116800282B3F6F5A00219555 /* Build configuration list for PBXProject "loopcraft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116800242B3F6F5A00219555;
+			productRefGroup = 1168002E2B3F6F5A00219555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1168002C2B3F6F5A00219555 /* loopcraft */,
+				1168003D2B3F6F5D00219555 /* loopcraftTests */,
+				116800472B3F6F5D00219555 /* loopcraftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1168002B2B3F6F5A00219555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116800382B3F6F5C00219555 /* Preview Assets.xcassets in Resources */,
+				116800352B3F6F5C00219555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1168003C2B3F6F5D00219555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116800462B3F6F5D00219555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116800292B3F6F5A00219555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116800332B3F6F5A00219555 /* ContentView.swift in Sources */,
+				116800312B3F6F5A00219555 /* loopcraftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1168003A2B3F6F5D00219555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116800432B3F6F5D00219555 /* loopcraftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116800442B3F6F5D00219555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1168004D2B3F6F5D00219555 /* loopcraftUITests.swift in Sources */,
+				1168004F2B3F6F5D00219555 /* loopcraftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		116800402B3F6F5D00219555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1168002C2B3F6F5A00219555 /* loopcraft */;
+			targetProxy = 1168003F2B3F6F5D00219555 /* PBXContainerItemProxy */;
+		};
+		1168004A2B3F6F5D00219555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1168002C2B3F6F5A00219555 /* loopcraft */;
+			targetProxy = 116800492B3F6F5D00219555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		116800502B3F6F5D00219555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		116800512B3F6F5D00219555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		116800532B3F6F5D00219555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = loopcraft/loopcraft.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"loopcraft/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sgurumur22.loopcraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		116800542B3F6F5D00219555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = loopcraft/loopcraft.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"loopcraft/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sgurumur22.loopcraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		116800562B3F6F5D00219555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sgurumur22.loopcraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loopcraft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/loopcraft";
+			};
+			name = Debug;
+		};
+		116800572B3F6F5D00219555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sgurumur22.loopcraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loopcraft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/loopcraft";
+			};
+			name = Release;
+		};
+		116800592B3F6F5D00219555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sgurumur22.loopcraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = loopcraft;
+			};
+			name = Debug;
+		};
+		1168005A2B3F6F5D00219555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sgurumur22.loopcraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = loopcraft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116800282B3F6F5A00219555 /* Build configuration list for PBXProject "loopcraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116800502B3F6F5D00219555 /* Debug */,
+				116800512B3F6F5D00219555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116800522B3F6F5D00219555 /* Build configuration list for PBXNativeTarget "loopcraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116800532B3F6F5D00219555 /* Debug */,
+				116800542B3F6F5D00219555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116800552B3F6F5D00219555 /* Build configuration list for PBXNativeTarget "loopcraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116800562B3F6F5D00219555 /* Debug */,
+				116800572B3F6F5D00219555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116800582B3F6F5D00219555 /* Build configuration list for PBXNativeTarget "loopcraftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116800592B3F6F5D00219555 /* Debug */,
+				1168005A2B3F6F5D00219555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 116800252B3F6F5A00219555 /* Project object */;
+}
