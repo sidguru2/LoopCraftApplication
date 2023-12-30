@@ -21,6 +21,7 @@ struct BeatView: View {
             }
             if let beatInfo = self.beatInfo {
                     PlayerView(url: beatInfo.url)
+                    .id(UUID().uuidString)
             }
             Spacer()
         }.padding()

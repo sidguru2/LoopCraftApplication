@@ -9,7 +9,7 @@ import SwiftUI
 import AVFoundation
 
 struct ContentView: View {
-    @State var musicInfo: MusicInfo?
+    @State var beatInfo: MusicInfo?
     @State private var vibe: String?
     @State private var instrument: String?
     @State private var genre: String?
@@ -19,7 +19,9 @@ struct ContentView: View {
             //FileUploadView()
             BeatView(onBeatImport: onBeatImport)
             FilterView(vibe: $vibe, genre: $genre, instrument: $instrument)
-            LoopMixerView()
+            if let beatInfo = self.beatInfo{
+                LoopMixerView(beatInfo: beatInfo, vibe: vibe, instrument: instrument, genre: genre).id(UUID().uuidString)
+            }
             Spacer()
             
         }
@@ -28,6 +30,6 @@ struct ContentView: View {
     }
     func onBeatImport(musicInfo: MusicInfo) {
         print("On Beat Import", musicInfo)
-        self.musicInfo = musicInfo
+        self.beatInfo = musicInfo
     }
 }
