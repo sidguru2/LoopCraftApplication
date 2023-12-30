@@ -11,6 +11,7 @@ import AVFoundation
 
 struct FileUploadView: View {
     var onUpload: (URL) -> Void
+    @EnvironmentObject var globalPlayer: GlobalAVPlayer
     @State private var isImporting = false
     @State private var beatURL: URL?
     @State private var beatName: String?
@@ -24,9 +25,11 @@ struct FileUploadView: View {
                            allowedContentTypes: [.wav, .mp3]) {result in
                 switch result {
                 case .success(let url):
+                    globalPlayer.player.pause()
+                    globalPlayer.player.replaceCurrentItem(with: nil)
                     
                     onUpload(url)
-                  
+ 
                 case .failure(let error):
                     print(error)
                 }

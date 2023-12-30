@@ -17,6 +17,10 @@ struct BeatView: View {
                 if let beatInfo = self.beatInfo {
                     BeatInfoView(beatInfo: beatInfo)
                 }
+                
+            }
+            if let beatInfo = self.beatInfo {
+                    PlayerView(url: beatInfo.url)
             }
             Spacer()
         }.padding()
