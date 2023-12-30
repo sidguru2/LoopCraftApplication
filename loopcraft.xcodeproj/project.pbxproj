@@ -14,6 +14,13 @@
 		116800432B3F6F5D00219555 /* loopcraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116800422B3F6F5D00219555 /* loopcraftTests.swift */; };
 		1168004D2B3F6F5D00219555 /* loopcraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168004C2B3F6F5D00219555 /* loopcraftUITests.swift */; };
 		1168004F2B3F6F5D00219555 /* loopcraftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168004E2B3F6F5D00219555 /* loopcraftUITestsLaunchTests.swift */; };
+		11AF2F522B406B040073231C /* BeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F512B406B040073231C /* BeatView.swift */; };
+		11AF2F542B406B4E0073231C /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F532B406B4E0073231C /* FilterView.swift */; };
+		11AF2F582B406BBA0073231C /* LoopMixerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F572B406BBA0073231C /* LoopMixerView.swift */; };
+		11AF2F5A2B406CB90073231C /* MusicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F592B406CB90073231C /* MusicInfo.swift */; };
+		11AF2F5C2B406CDD0073231C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F5B2B406CDD0073231C /* Utils.swift */; };
+		11AF2F5E2B4072EF0073231C /* FileUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F5D2B4072EF0073231C /* FileUploadView.swift */; };
+		11AF2F602B4081970073231C /* BeatInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F5F2B4081970073231C /* BeatInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		116800482B3F6F5D00219555 /* loopcraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loopcraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1168004C2B3F6F5D00219555 /* loopcraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopcraftUITests.swift; sourceTree = "<group>"; };
 		1168004E2B3F6F5D00219555 /* loopcraftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopcraftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11AF2F512B406B040073231C /* BeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatView.swift; sourceTree = "<group>"; };
+		11AF2F532B406B4E0073231C /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		11AF2F572B406BBA0073231C /* LoopMixerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopMixerView.swift; sourceTree = "<group>"; };
+		11AF2F592B406CB90073231C /* MusicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInfo.swift; sourceTree = "<group>"; };
+		11AF2F5B2B406CDD0073231C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		11AF2F5D2B4072EF0073231C /* FileUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadView.swift; sourceTree = "<group>"; };
+		11AF2F5F2B4081970073231C /* BeatInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,13 @@
 			children = (
 				116800302B3F6F5A00219555 /* loopcraftApp.swift */,
 				116800322B3F6F5A00219555 /* ContentView.swift */,
+				11AF2F512B406B040073231C /* BeatView.swift */,
+				11AF2F5F2B4081970073231C /* BeatInfoView.swift */,
+				11AF2F5D2B4072EF0073231C /* FileUploadView.swift */,
+				11AF2F532B406B4E0073231C /* FilterView.swift */,
+				11AF2F572B406BBA0073231C /* LoopMixerView.swift */,
+				11AF2F592B406CB90073231C /* MusicInfo.swift */,
+				11AF2F5B2B406CDD0073231C /* Utils.swift */,
 				116800342B3F6F5C00219555 /* Assets.xcassets */,
 				116800392B3F6F5C00219555 /* loopcraft.entitlements */,
 				116800362B3F6F5C00219555 /* Preview Content */,
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AF2F542B406B4E0073231C /* FilterView.swift in Sources */,
+				11AF2F5A2B406CB90073231C /* MusicInfo.swift in Sources */,
 				116800332B3F6F5A00219555 /* ContentView.swift in Sources */,
+				11AF2F5C2B406CDD0073231C /* Utils.swift in Sources */,
 				116800312B3F6F5A00219555 /* loopcraftApp.swift in Sources */,
+				11AF2F522B406B040073231C /* BeatView.swift in Sources */,
+				11AF2F602B4081970073231C /* BeatInfoView.swift in Sources */,
+				11AF2F582B406BBA0073231C /* LoopMixerView.swift in Sources */,
+				11AF2F5E2B4072EF0073231C /* FileUploadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
