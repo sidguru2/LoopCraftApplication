@@ -38,7 +38,7 @@ struct MatchingLoops: View {
             HStack{
               Text(loop.filename)
               Spacer()
-                PlayerView(url: url)
+                URLPlayerView(url: url, size: 25)
                 .id(UUID().uuidString)
             }.padding()
               .contentShape(Rectangle())
@@ -69,14 +69,12 @@ struct MatchingLoops: View {
                 }
                 
             }
-           // self.comp = merge(urls: listUrl)
-//            self.mixed = mix(urls: listUrl)
-            
-            // make a list of url objects
-            // call merge function to create composition
-            // set the composition to a state variable
+           self.comp = merge(urls: listUrl)
+
         }, label: {Text("Merge")})
         if let comp = self.comp {
+            PlayerView(size: 25, compositionAsset: comp)
+                .id(UUID().uuidString)
             //Playe
          //   CompPlayer(comp: comp)
          //   ExportButton(comp: comp)
