@@ -18,7 +18,7 @@ class MusicInfo {
     var key: String = ""
     
     var vibe: String = ""
-    /*
+    
      func computeBpm() {
      if beats.count > 1 {
      let bpms = beats.diff().map {element in
@@ -35,7 +35,7 @@ class MusicInfo {
      
      }
      
-     }*/
+     }
     
     
     init(url: URL) {

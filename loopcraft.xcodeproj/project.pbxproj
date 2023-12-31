@@ -21,6 +21,11 @@
 		116D7B2A2B40ECDB00146DFE /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D7B292B40ECDB00146DFE /* Merge.swift */; };
 		116D7B2C2B41067300146DFE /* ExportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D7B2B2B41067300146DFE /* ExportButton.swift */; };
 		116D7B2E2B41071000146DFE /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D7B2D2B41071000146DFE /* Sharing.swift */; };
+		116D7B312B41320B00146DFE /* aubio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D7B302B41320B00146DFE /* aubio.framework */; };
+		116D7B322B41320B00146DFE /* aubio.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 116D7B302B41320B00146DFE /* aubio.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		116D7B352B41322100146DFE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D7B342B41322100146DFE /* Accelerate.framework */; };
+		116D7B372B41322800146DFE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D7B362B41322800146DFE /* AudioToolbox.framework */; };
+		116D7B392B41330D00146DFE /* Key Finder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D7B382B41330D00146DFE /* Key Finder.swift */; };
 		11AF2F522B406B040073231C /* BeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F512B406B040073231C /* BeatView.swift */; };
 		11AF2F542B406B4E0073231C /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F532B406B4E0073231C /* FilterView.swift */; };
 		11AF2F582B406BBA0073231C /* LoopMixerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F572B406BBA0073231C /* LoopMixerView.swift */; };
@@ -49,6 +54,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		116D7B332B41320B00146DFE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				116D7B322B41320B00146DFE /* aubio.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1168002D2B3F6F5A00219555 /* loopcraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loopcraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116800302B3F6F5A00219555 /* loopcraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopcraftApp.swift; sourceTree = "<group>"; };
@@ -68,6 +87,10 @@
 		116D7B292B40ECDB00146DFE /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
 		116D7B2B2B41067300146DFE /* ExportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportButton.swift; sourceTree = "<group>"; };
 		116D7B2D2B41071000146DFE /* Sharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing.swift; sourceTree = "<group>"; };
+		116D7B302B41320B00146DFE /* aubio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = aubio.framework; sourceTree = "<group>"; };
+		116D7B342B41322100146DFE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		116D7B362B41322800146DFE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		116D7B382B41330D00146DFE /* Key Finder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Key Finder.swift"; sourceTree = "<group>"; };
 		11AF2F512B406B040073231C /* BeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatView.swift; sourceTree = "<group>"; };
 		11AF2F532B406B4E0073231C /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		11AF2F572B406BBA0073231C /* LoopMixerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopMixerView.swift; sourceTree = "<group>"; };
@@ -84,6 +107,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116D7B312B41320B00146DFE /* aubio.framework in Frameworks */,
+				116D7B352B41322100146DFE /* Accelerate.framework in Frameworks */,
+				116D7B372B41322800146DFE /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +137,7 @@
 				116800412B3F6F5D00219555 /* loopcraftTests */,
 				1168004B2B3F6F5D00219555 /* loopcraftUITests */,
 				1168002E2B3F6F5A00219555 /* Products */,
+				116D7B2F2B41320A00146DFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +158,7 @@
 				116800302B3F6F5A00219555 /* loopcraftApp.swift */,
 				116800322B3F6F5A00219555 /* ContentView.swift */,
 				11AF2F512B406B040073231C /* BeatView.swift */,
+				116D7B382B41330D00146DFE /* Key Finder.swift */,
 				11AF2F612B40A91F0073231C /* URLPlayerView.swift */,
 				11AF2F632B40B86C0073231C /* GlobalAVPlayer.swift */,
 				11AF2F5F2B4081970073231C /* BeatInfoView.swift */,
@@ -177,6 +205,16 @@
 			path = loopcraftUITests;
 			sourceTree = "<group>";
 		};
+		116D7B2F2B41320A00146DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				116D7B362B41322800146DFE /* AudioToolbox.framework */,
+				116D7B342B41322100146DFE /* Accelerate.framework */,
+				116D7B302B41320B00146DFE /* aubio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,6 +225,7 @@
 				116800292B3F6F5A00219555 /* Sources */,
 				1168002A2B3F6F5A00219555 /* Frameworks */,
 				1168002B2B3F6F5A00219555 /* Resources */,
+				116D7B332B41320B00146DFE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,6 +361,7 @@
 				11AF2F602B4081970073231C /* BeatInfoView.swift in Sources */,
 				116D7B2C2B41067300146DFE /* ExportButton.swift in Sources */,
 				116D7B242B40CE0100146DFE /* Loop.swift in Sources */,
+				116D7B392B41330D00146DFE /* Key Finder.swift in Sources */,
 				11AF2F582B406BBA0073231C /* LoopMixerView.swift in Sources */,
 				116D7B282B40D1A800146DFE /* MatchingLoops.swift in Sources */,
 				11AF2F5E2B4072EF0073231C /* FileUploadView.swift in Sources */,
@@ -485,6 +525,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"loopcraft/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +555,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"loopcraft/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
