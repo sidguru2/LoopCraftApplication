@@ -75,6 +75,8 @@ struct MatchingLoops: View {
         if let comp = self.comp {
             PlayerView(size: 25, compositionAsset: comp)
                 .id(UUID().uuidString)
+            ExportButton(comp: comp)
+                .id(UUID().uuidString)
             //Playe
          //   CompPlayer(comp: comp)
          //   ExportButton(comp: comp)

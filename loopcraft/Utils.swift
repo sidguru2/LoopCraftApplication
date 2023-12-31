@@ -24,3 +24,10 @@ func readJSONFile(_ name: String) -> [Loop]{
    }
     return [Loop]()
 }
+
+
+func shortUUID() -> String{
+  let text = UUID().uuidString
+  let index = text.index(text.startIndex, offsetBy: 8)
+  return String(text[text.startIndex..<index])
+}

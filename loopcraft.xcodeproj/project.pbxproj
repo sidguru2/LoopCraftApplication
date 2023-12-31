@@ -19,6 +19,8 @@
 		116D7B262B40CED800146DFE /* Catalog in Resources */ = {isa = PBXBuildFile; fileRef = 116D7B252B40CED800146DFE /* Catalog */; };
 		116D7B282B40D1A800146DFE /* MatchingLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D7B272B40D1A800146DFE /* MatchingLoops.swift */; };
 		116D7B2A2B40ECDB00146DFE /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D7B292B40ECDB00146DFE /* Merge.swift */; };
+		116D7B2C2B41067300146DFE /* ExportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D7B2B2B41067300146DFE /* ExportButton.swift */; };
+		116D7B2E2B41071000146DFE /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D7B2D2B41071000146DFE /* Sharing.swift */; };
 		11AF2F522B406B040073231C /* BeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F512B406B040073231C /* BeatView.swift */; };
 		11AF2F542B406B4E0073231C /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F532B406B4E0073231C /* FilterView.swift */; };
 		11AF2F582B406BBA0073231C /* LoopMixerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AF2F572B406BBA0073231C /* LoopMixerView.swift */; };
@@ -64,6 +66,8 @@
 		116D7B252B40CED800146DFE /* Catalog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Catalog; sourceTree = SOURCE_ROOT; };
 		116D7B272B40D1A800146DFE /* MatchingLoops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingLoops.swift; sourceTree = "<group>"; };
 		116D7B292B40ECDB00146DFE /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
+		116D7B2B2B41067300146DFE /* ExportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportButton.swift; sourceTree = "<group>"; };
+		116D7B2D2B41071000146DFE /* Sharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing.swift; sourceTree = "<group>"; };
 		11AF2F512B406B040073231C /* BeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatView.swift; sourceTree = "<group>"; };
 		11AF2F532B406B4E0073231C /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		11AF2F572B406BBA0073231C /* LoopMixerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopMixerView.swift; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				11AF2F592B406CB90073231C /* MusicInfo.swift */,
 				11AF2F5B2B406CDD0073231C /* Utils.swift */,
 				116D7B292B40ECDB00146DFE /* Merge.swift */,
+				116D7B2B2B41067300146DFE /* ExportButton.swift */,
+				116D7B2D2B41071000146DFE /* Sharing.swift */,
 				116800342B3F6F5C00219555 /* Assets.xcassets */,
 				116800392B3F6F5C00219555 /* loopcraft.entitlements */,
 				116800362B3F6F5C00219555 /* Preview Content */,
@@ -306,6 +312,7 @@
 				11AF2F542B406B4E0073231C /* FilterView.swift in Sources */,
 				11AF2F5A2B406CB90073231C /* MusicInfo.swift in Sources */,
 				116800332B3F6F5A00219555 /* ContentView.swift in Sources */,
+				116D7B2E2B41071000146DFE /* Sharing.swift in Sources */,
 				116D7B222B40CD9000146DFE /* MatchesCatalog.swift in Sources */,
 				11AF2F622B40A91F0073231C /* URLPlayerView.swift in Sources */,
 				11AF2F5C2B406CDD0073231C /* Utils.swift in Sources */,
@@ -313,6 +320,7 @@
 				11AF2F642B40B86C0073231C /* GlobalAVPlayer.swift in Sources */,
 				11AF2F522B406B040073231C /* BeatView.swift in Sources */,
 				11AF2F602B4081970073231C /* BeatInfoView.swift in Sources */,
+				116D7B2C2B41067300146DFE /* ExportButton.swift in Sources */,
 				116D7B242B40CE0100146DFE /* Loop.swift in Sources */,
 				11AF2F582B406BBA0073231C /* LoopMixerView.swift in Sources */,
 				116D7B282B40D1A800146DFE /* MatchingLoops.swift in Sources */,
