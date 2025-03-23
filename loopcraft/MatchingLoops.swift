@@ -33,8 +33,9 @@ struct MatchingLoops: View {
       LazyVStack {
         ForEach(Array(loops.enumerated()), id: \.element) { index, loop in
           let path = "http://localhost:8000/\(loop.filename)"
-            let playerId = UUID().uuidString
-          if let url = URL(string: path) {
+            //let playerId = UUID().uuidString
+          //if let url = URL(string: path) {
+            if let url = loop.url {
             HStack{
               Text(loop.filename)
               Spacer()
@@ -60,9 +61,10 @@ struct MatchingLoops: View {
             for i in 0..<selected.count {
                 if selected[i] == true {
                     let loop = loops[i]
-                    let path = "http://localhost:8000/\(loop.filename)"
-                    let url = URL(string: path)
-                    if let url = url {
+                    //let path = "http://localhost:8000/\(loop.filename)"
+                    //let url = URL(string: path)
+                    //let url = loop.url
+                    if let url = loop.url {
                         listUrl.append(url)
                     }
                     

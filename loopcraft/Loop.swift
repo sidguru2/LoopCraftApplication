@@ -21,6 +21,7 @@ struct Loop: Decodable, Identifiable, Hashable {
   let culture: String?
   let artist: String?
   let timesignature: String
+  let url: URL?
   
   public func hash(into hasher: inout Hasher) {
     hasher.combine(id)

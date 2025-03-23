@@ -75,6 +75,7 @@ func mix(urls: [URL]) async throws -> AVMutableAudioMix {
             let tracks = try await asset.loadTracks(withMediaType: AVMediaType.audio)
             let inputp = AVMutableAudioMixInputParameters(track: tracks.first)
             // add inputp to array of inputps
+            //add rule based mixing algorithms here
             inputParameters.append(inputp)
             
         } catch {
